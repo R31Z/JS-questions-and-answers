@@ -58,3 +58,8 @@ The following one line function will return true if str is a palindrome; otherwi
      Specifying an identifier in a function expression does have its use though: stack traces are clearer instead of being        littered with nameless functions, and you can have an anonymous function recursively call itself without using     
      arguments.callee. kangax has a very detailed post on function expressions.
             
+ ## 5 What would be the result? 3+2+"7"
+      
+      Answer: Since 3 and 2 are integers, they will be added numerically. 
+      And since 7 is a string, its concatenation will be done. So the result would be 57.
+      
