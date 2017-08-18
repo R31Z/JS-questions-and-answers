@@ -29,15 +29,17 @@ The following one line function will return true if str is a palindrome; otherwi
     console.log(isPalindrome("level")); // logs 'true'
     console.log(isPalindrome("levels")); // logs 'false'
     console.log(isPalindrome("A car, a man, a maraca")); // logs 'true'
-## 4.
-   Question a. 
-            (function(){
-                return typeof arguments;
-            })();
+    
+## 4.a
+
+    (function(){
+        return typeof arguments;
+    })();
       
-    Question b. 
-            var f = function g(){ return 44; };
-            typeof g(); 
+## 4.b
+
+    var f = function g(){ return 44; };
+    typeof g(); 
             
      Answer a: 
      The answer is "object"; the arguments object accessible in a function is, well, an object. 
