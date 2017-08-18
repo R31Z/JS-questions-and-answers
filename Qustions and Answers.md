@@ -35,12 +35,7 @@ The following one line function will return true if str is a palindrome; otherwi
     (function(){
         return typeof arguments;
     })();
-      
-## 4.b
-
-    var f = function g(){ return 44; };
-    typeof g(); 
-            
+    
      Answer a: 
      The answer is "object"; the arguments object accessible in a function is, well, an object. 
      There are two things to watch out for here:
@@ -50,7 +45,12 @@ The following one line function will return true if str is a palindrome; otherwi
      
      Even if arguments were a true array, the answer would still be "object". 
      The typeof operator returns "object" when given an array, because arrays are objects too.
+      
+## 4.b
 
+    var f = function g(){ return 44; };
+    typeof g(); 
+            
      Answer b:
      The answer is that an error will occur.
      This is because function g(){ return 44; } is a function expression (a named one, in fact), not a function declaration.      The function is actually bound to the variable f, not g. 
