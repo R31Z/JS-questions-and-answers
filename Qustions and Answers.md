@@ -94,3 +94,4 @@ The browser has an event loop which checks the event queue and processes pending
 When a value of zero is passed as the second argument to setTimeout(), it attempts to execute the specified function “as soon as possible”. Specifically, execution of the function is placed on the event queue to occur on the next timer tick. Note, though, that this is notimmediate; the function is not executed until the next tick. That’s why in the above example, the call to console.log(4) occurs before the call to console.log(3) (since the call to console.log(3) is invoked via setTimeout, so it is slightly delayed). 
 
 ## 7 What is the output of "10"+20+30?
+102030 because after a string all the + will be treated as string concatenation operator (not binary +).
