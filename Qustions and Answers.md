@@ -95,3 +95,8 @@ When a value of zero is passed as the second argument to setTimeout(), it attemp
 
 ## 7 What is the output of "10"+20+30?
 102030 because after a string all the + will be treated as string concatenation operator (not binary +).
+
+##  Difference between Client side JavaScript and Server side JavaScript?
+Client side JavaScript comprises the basic language and predefined objects which are relevant to running java script in a browser. The client side JavaScript is embedded directly by in the HTML pages. This script is interpreted by the browser at run time.
+
+Server side JavaScript also resembles like client side java script. It has relevant java script which is to run in a server. The server side JavaScript are deployed only after compilation.
