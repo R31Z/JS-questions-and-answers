@@ -117,3 +117,7 @@ From drag-and-drop blocks to stylized sliders, there are numerous ways that Java
 
 Prototypal Inheritance: 
 Objects can inherit from other objects, which makes JavaScript so simple, powerful, and great for dynamic applications.
+
+## 10 What are the disadvantages of using JavaScript?
+
+Experienced coders won’t just be able to rave about their favorite language’s strengths—they will also be able to talk about its weaknesses. JavaScript’s main weakness is security. Look for answers on how it can be exploited. A secondary weakness is JavaScript’s ubiquity and versatility—it can be a double-edged sword in that there’s a lot of room for programming quirks that can lead to inconsistent performance across different platforms.
