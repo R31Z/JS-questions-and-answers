@@ -163,7 +163,7 @@ Let’s take an example of creating an object directly.
 
     std.id=1114; 
 
-    std.name="Ram Bajaj"; 
+    std.name="Albert Einstein"; 
 
     std.subject="Physics"; 
 
