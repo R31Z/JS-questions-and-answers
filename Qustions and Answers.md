@@ -153,3 +153,45 @@ Let’s take an example of creating an object using object literal technique.
 The syntax of creating an object directly is as follows.
      
     var objectname=new Object();
+    
+Here, the new keyword is used to create the object.
+Let’s take an example of creating an object directly.
+   
+    <script> 
+
+    var std=new Object(); 
+
+    std.id=1114; 
+
+    std.name="Ram Bajaj"; 
+
+    std.subject="Physics"; 
+
+    document.write(std.id+" "+std.name+" "+std.subject); 
+
+    </script>
+
+### 3. By Using An Object Constructor.
+
+In this method, we create a function with arguments. The value of each of these arguments can be assigned to the current object by using this keyword.
+
+This keyword refers to the current object.
+Let’s take an example of creating an object using object constructor technique.
+
+    <script> 
+
+    function std(id,name,subject){ 
+
+    this.id=id; 
+
+    this.name=name; 
+
+    this.subject=subject; 
+
+    } 
+
+    s=new std(1114,"Ram Bajaj","Physics"); 
+
+    document.write(s.id+" "+s.name+" "+s.subject); 
+
+    </script>
