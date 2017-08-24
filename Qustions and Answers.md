@@ -142,7 +142,7 @@ Let’s take an example of creating an object using object literal technique.
 
     <script> 
 
-    std={id:1114, name:"Ram Bajaj", subject:"Physics"} 
+    std={id:1114, name:"Albert Einstein", subject:"Physics"} 
 
     document.write(std.id+" "+std.name+" "+std.subject); 
 
@@ -190,7 +190,7 @@ Let’s take an example of creating an object using object constructor technique
 
     } 
 
-    s=new std(1114,"Ram Bajaj","Physics"); 
+    s=new std(1114,"Albert Einstein","Physics"); 
 
     document.write(s.id+" "+s.name+" "+s.subject); 
 
