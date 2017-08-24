@@ -62,14 +62,14 @@ This is because function g(){ return 44; } is a function expression (a named one
 Specifying an identifier in a function expression does have its use though: stack traces are clearer instead of being        littered with nameless functions, and you can have an anonymous function recursively call itself without using     
 arguments.callee. kangax has a very detailed post on function expressions.
             
- ## 5 What would be the result? 3+2+"7"
+ ## 5. What would be the result? 3+2+"7"
       
   Answer: 
   
       Since 3 and 2 are integers, they will be added numerically. 
       And since 7 is a string, its concatenation will be done. So the result would be 57.
       
-## 6 In what order will the numbers 1-4 be logged to the console when the code below is executed? Why?
+## 6. In what order will the numbers 1-4 be logged to the console when the code below is executed? Why?
 (function() {
 console.log(1); 
 setTimeout(function(){console.log(2)}, 1000); 
@@ -93,7 +93,7 @@ The browser has an event loop which checks the event queue and processes pending
 
 When a value of zero is passed as the second argument to setTimeout(), it attempts to execute the specified function “as soon as possible”. Specifically, execution of the function is placed on the event queue to occur on the next timer tick. Note, though, that this is notimmediate; the function is not executed until the next tick. That’s why in the above example, the call to console.log(4) occurs before the call to console.log(3) (since the call to console.log(3) is invoked via setTimeout, so it is slightly delayed). 
 
-## 7 What is the output of "10"+20+30?
+## 7. What is the output of "10"+20+30?
 102030 because after a string all the + will be treated as string concatenation operator (not binary +).
 
 ## 8 Difference between Client side JavaScript and Server side JavaScript?
@@ -101,7 +101,7 @@ Client side JavaScript comprises the basic language and predefined objects which
 
 Server side JavaScript also resembles like client side java script. It has relevant java script which is to run in a server. The server side JavaScript are deployed only after compilation.
 
-## 9 What are the advantages of using JavaScript?
+## 9. What are the advantages of using JavaScript?
 
 Lightweight: 
 JavaScript can be executed within the user’s browser without having to communicate with the server, saving on bandwidth.
@@ -118,11 +118,11 @@ From drag-and-drop blocks to stylized sliders, there are numerous ways that Java
 Prototypal Inheritance: 
 Objects can inherit from other objects, which makes JavaScript so simple, powerful, and great for dynamic applications.
 
-## 10 What are the disadvantages of using JavaScript?
+## 10. What are the disadvantages of using JavaScript?
 
 Experienced coders won’t just be able to rave about their favorite language’s strengths—they will also be able to talk about its weaknesses. JavaScript’s main weakness is security. Look for answers on how it can be exploited. A secondary weakness is JavaScript’s ubiquity and versatility—it can be a double-edged sword in that there’s a lot of room for programming quirks that can lead to inconsistent performance across different platforms.
 
-## 11 What’s An Object In JavaScrpt And How Do We Create Them?
+## 11. What’s An Object In JavaScrpt And How Do We Create Them?
 
 A JavaScript object is an entity having state and behavior (properties and method). Since JavaScript is an object-based language, it treats everything as an object.
 
