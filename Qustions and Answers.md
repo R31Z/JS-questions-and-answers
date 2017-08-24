@@ -100,3 +100,15 @@ When a value of zero is passed as the second argument to setTimeout(), it attemp
 Client side JavaScript comprises the basic language and predefined objects which are relevant to running java script in a browser. The client side JavaScript is embedded directly by in the HTML pages. This script is interpreted by the browser at run time.
 
 Server side JavaScript also resembles like client side java script. It has relevant java script which is to run in a server. The server side JavaScript are deployed only after compilation.
+
+## 9 What are the advantages of using JavaScript?
+
+    Lightweight: JavaScript can be executed within the user’s browser without having to communicate with the server, saving on bandwidth.
+    <hr />
+    Versatile: JavaScript supports multiple programming paradigms—object-oriented, imperative, and functional programming and can be used on both front-end and server-side technologies.
+    <hr />
+    Sleek Interactivity: Because tasks can be completed within the browser without communicating with the server, JavaScript can create a smooth “desktop-like” experience for the end user.
+    <hr />
+    Rich Interfaces: From drag-and-drop blocks to stylized sliders, there are numerous ways that JavaScript can be used to enhance a website’s UI/UX.
+    <hr />
+    Prototypal Inheritance: Objects can inherit from other objects, which makes JavaScript so simple, powerful, and great for dynamic applications.
