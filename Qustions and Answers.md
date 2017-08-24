@@ -121,3 +121,35 @@ Objects can inherit from other objects, which makes JavaScript so simple, powerf
 ## 10 What are the disadvantages of using JavaScript?
 
 Experienced coders won’t just be able to rave about their favorite language’s strengths—they will also be able to talk about its weaknesses. JavaScript’s main weakness is security. Look for answers on how it can be exploited. A secondary weakness is JavaScript’s ubiquity and versatility—it can be a double-edged sword in that there’s a lot of room for programming quirks that can lead to inconsistent performance across different platforms.
+
+## 11 What’s An Object In JavaScrpt And How Do We Create Them?
+
+A JavaScript object is an entity having state and behavior (properties and method). Since JavaScript is an object-based language, it treats everything as an object.
+
+JavaScript is a template-based language not class based. It supports to create the object directly, there is no need to define a class for this.
+
+JavaScript supports following three ways to create objects.
+
+### 1. By Object Literal.
+
+The syntax of creating an object using object literal is as follows.
+           
+    object={property1:value1, property2:value2.....propertyN:valueN}
+    
+Here, property and value are separated by “:”.
+
+Let’s take an example of creating an object using object literal technique.
+
+    <script> 
+
+    std={id:1114, name:"Ram Bajaj", subject:"Physics"} 
+
+    document.write(std.id+" "+std.name+" "+std.subject); 
+
+    </script> 
+    
+### 2. By Creating An Instance Of The Object (Using New Keyword).
+
+The syntax of creating an object directly is as follows.
+     
+    var objectname=new Object();
