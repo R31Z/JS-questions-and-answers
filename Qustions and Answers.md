@@ -244,3 +244,64 @@ Variables defined inside a function comes under the Local scope. Different funct
     }
 
     // Global Scope
+## 13. What Is <This> In JavaScript?
+
+All the prime languages use ‘this’ keyword to refer to an object that is currently instantiated by the class. However, in JavaScript, ‘this’ refers to an object which ‘owns’ the method. Though this varies, with how a function call happens.
+
+Global Scope.
+
+If no object is currently available, then ‘this’ represents the global object. In a web browser, ‘window’ is the top-level object which represents the document, location, history and a few other useful properties and methods. Let’s take a sample code.
+
+    window.Obj= "I represent the window object";
+
+    alert(window.Obj);
+
+    alert(this.Obj); // I'm the window object
+
+    alert(window === this); // true
+    
+ ### The Scenario Of A Function Call.
+
+In the case of a function call, ‘this’ refers to the global object.
+
+    window.Obj = "I represent the window object";
+
+    function TestFunction() {
+
+        alert(this.Obj); // I'm the window object
+
+        alert(window === this); // true
+
+    }
+
+    TestFunction();
+    
+### Call Object Methods.
+
+When an object constructor or any of its methods gets called, ‘this’ refers to an instance of an object. It is similar to any class-based language.
+
+    window.Obj = "I'm the window object";
+
+    function TestFunction() {
+
+        this.Obj = "I'm the Test object";
+
+        this.Verify1 = function() {
+
+            alert(this.Obj); // I'm the Test object
+
+        };
+
+    }
+
+    TestFunction.prototype.Verify2 = function() {
+
+        alert(this.Obj); // I'm the Test object
+
+    };
+
+    var tf= new TestFunction();
+
+    tf.Verify1();
+
+    tf.Verify2();
