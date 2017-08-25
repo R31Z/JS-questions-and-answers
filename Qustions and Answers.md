@@ -309,3 +309,21 @@ When an object constructor or any of its methods gets called, ‘this’ refers 
 ## 14. What Is Prototype Property In JavaScript?
 
 Every JavaScript function has a prototype property (by default this property is null), that is mainly used for implementing inheritance. We add methods and properties to a function’s prototype so that it becomes available to instances of that function. Let’s take an example that calculates the perimeter of a rectangle.
+
+    function Rectangle(x, y) {
+
+        this.x = x;
+
+        this.y = y;
+
+    }
+
+    Rectangle.prototype.perimeter = function() {
+
+       return 2 * (this.x + this.y);
+
+    }
+
+    var rect = new Rectangle(4, 2);
+
+    console.log(rect.perimeter()); // outputs '12'
