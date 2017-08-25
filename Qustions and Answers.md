@@ -195,3 +195,52 @@ Let’s take an example of creating an object using object constructor technique
     document.write(s.id+" "+s.name+" "+s.subject); 
 
     </script>
+  
+## 12. What Is Scope In JavaScript?
+
+The scope determines the accessibility of variables, objects, and functions in particular part of your code.
+
+In JavaScript, the scope is of two types.
+
+### 1. Global Scope.
+
+A variable defined outside a function comes under the Global scope. Variables defined inside the Global scope are accessible from any part of the code. Let’s see an example.
+        
+        var name = 'TechBeamers';
+
+        console.log(name); // logs 'TechBeamers'
+
+        function logName() {
+
+        console.log(name); // 'name' is accessible here and everywhere else
+
+        }
+
+        logName(); // logs 'TechBeamers'
+        
+### 2. Local Scope.
+
+Variables defined inside a function comes under the Local scope. Different functions can use a variable with the same name. It is because these variables are strictly bound to the function that defines it (each having different scopes) and is not accessible in other functions. Let’s see an example.
+
+    // Global Scope
+
+    function sampleFunction() {
+
+        // Local Scope #1
+
+        function sample2Function() {
+
+            // Local Scope #2
+
+        }
+    }
+
+    // Global Scope
+
+    function sample3Function() {
+
+        // Local Scope #3
+
+    }
+
+    // Global Scope
