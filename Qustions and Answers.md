@@ -354,3 +354,24 @@ Here is a code example describing closure by adding a function inside another fu
 ## 16. Why Is “Self” Needed Instead Of “This"?
 
 Inner functions in JavaScript have access to all of the variables defined in the outer function. However, “this” variable is an exception. Since the nested function is just a regular function and not an object method, it’s “this” refers to the global namespace. To make it more clear, let’s look at the following example.
+
+    var aProperty = 'global';
+ 
+    var myObject = {
+
+      outerFun: function() {
+
+        this.aProperty = 'local';
+
+        setTimeout(function() {
+
+          console.log(this.aProperty); // outputs 'global'
+
+        }, 1);
+
+      }
+
+    };
+
+Thus, we see that inside “setTimeout” function, “this” refers to the global object. We need a way to get a reference to the object, that is available inside the nested function. We assign the object from “this”, to another(non-special) variable, “self”. It is not a special variable and hence cannot be overwritten by other functions(like “this”). Thus on using “self” inside the inner function, we can refer to the local object. Following is the sample code.
+
