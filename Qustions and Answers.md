@@ -327,3 +327,15 @@ Every JavaScript function has a prototype property (by default this property is 
     var rect = new Rectangle(4, 2);
 
     console.log(rect.perimeter()); // outputs '12'
+    
+## 15. What Is Closure In JavaScript?
+
+A closure is a JavaScript function defined inside another function. And that’s why it gets a special privilege to access three types of scope which are as follows.
+
+- Internal Scope i.e. the variables defined between its curly brackets.
+- Outer Function Scope i.e. the variables of the enclosing function.
+- Global Scope i.e. variables defined as globals.
+
+Please note that a closure can not only access the outer function variables but also see its parameters. But it can’t call the outer function’s arguments object. However, it can directly call the outer function’s parameters.
+
+Here is a code example describing closure by adding a function inside another function.
