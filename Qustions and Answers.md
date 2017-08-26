@@ -339,3 +339,15 @@ A closure is a JavaScript function defined inside another function. And that’s
 Please note that a closure can not only access the outer function variables but also see its parameters. But it can’t call the outer function’s arguments object. However, it can directly call the outer function’s parameters.
 
 Here is a code example describing closure by adding a function inside another function.
+
+    function outerFunc(arg1, arg2) {
+    var param = "I'm closure. ";
+
+    // Inner function accessing outer function variables and parameters
+    function innerFunc() { 
+     return arg1 + arg2 + " " + param;
+    }
+        return innerFunc();
+    }
+
+    outerFunc("arg1", "arg2");
