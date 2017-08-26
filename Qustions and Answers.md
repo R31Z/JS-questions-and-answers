@@ -351,3 +351,6 @@ Here is a code example describing closure by adding a function inside another fu
     }
 
     outerFunc("arg1", "arg2");
+## 16. Why Is “Self” Needed Instead Of “This"?
+
+Inner functions in JavaScript have access to all of the variables defined in the outer function. However, “this” variable is an exception. Since the nested function is just a regular function and not an object method, it’s “this” refers to the global namespace. To make it more clear, let’s look at the following example.
