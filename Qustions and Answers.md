@@ -392,3 +392,6 @@ Thus, we see that inside “setTimeout” function, “this” refers to the glo
       }
 
     };
+## 17. Why Is “Self” Needed Instead Of “This” In JavaScript?
+
+Inner functions in JavaScript have access to all of the variables defined in the outer function. However, “this” variable is an exception. Since the nested function is just a regular function and not an object method, it’s “this” refers to the global namespace. To make it more clear, let’s look at the following example.
