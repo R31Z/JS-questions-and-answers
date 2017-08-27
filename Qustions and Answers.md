@@ -413,3 +413,23 @@ Inner functions in JavaScript have access to all of the variables defined in the
       }
 
     };
+    
+Thus, we see that inside “setTimeout” function, “this” refers to the global object. We need a way to get a reference to the object, that is available inside the nested function. We assign the object from “this”, to another(non-special) variable, “self”. It is not a special variable and hence cannot be overwritten by other functions(like “this”). Thus on using “self” inside the inner function, we can refer to the local object. Following is the sample code.
+
+    var myObject = {
+
+      outerFun: function() {
+
+        var self = this;
+
+        this.aProperty = 'local';
+
+        setTimeout(function() {
+
+          console.log(self.aProperty); // outputs 'local'
+
+        }, 1);
+
+      }
+
+    };
