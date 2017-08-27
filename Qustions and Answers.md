@@ -433,3 +433,13 @@ Thus, we see that inside “setTimeout” function, “this” refers to the glo
       }
 
     };
+
+## 18. What Is An Anonymous Function And When Should You Use It?
+
+Anonymous functions are functions that are dynamically declared at runtime. They’re called anonymous functions because they don’t have a name like normal functions.
+
+We use function operator to declare an anonymous function, instead of the function declaration. Also, function operator can be used to create a new function, wherever it’s valid to put an expression. For example, we declare a new function to be supplied as an argument to a function call or to assign a property of another object.
+
+Here’s a typical example of a named function.
+
+
