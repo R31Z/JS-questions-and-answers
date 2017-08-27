@@ -442,4 +442,22 @@ We use function operator to declare an anonymous function, instead of the functi
 
 Here’s a typical example of a named function.
 
+    function testFunction()
+    {
+
+       alert("Welcome!!");
+    }
+
+    testFunction();
+    
+Here’s the same example created as an anonymous function.
+
+    var testFunction= function()
+    {
+
+      alert("Zoom! Zoom! Zoom!");
+    }
+
+    flyToTheMoon();
+
 
