@@ -460,4 +460,13 @@ Here’s the same example created as an anonymous function.
 
     flyToTheMoon();
 
+Following are the key usage of anonymous functions.
 
+Code brevity.
+  Use them in
+    Callbacks, and
+    Event handlers.
+Scope management.
+  They are useful in the following scenario.
+    To create temporary/private scope.
+    In Closures and Recursions.
