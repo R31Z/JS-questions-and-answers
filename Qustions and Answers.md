@@ -471,3 +471,11 @@ Scope management.
     To create temporary/private scope.
     In Closures and Recursions.
 ## 19. What Is The Difference Between “==” And “===”?
+
+These are the operators provided by JavaScript – strict equality and Type converting equality.
+
+Strict equality (===) returns true if the values which it is going to compare have the same data type. Taking an example, “2” will not be equal to 2  i.e. (“2″===2) will return false.
+
+Secondly, Type converting equality (==), automatically converts the variable to value irrespective of the data type. Taking an example, here “2” will be equal to 2  i.e. (“2″===2) will return true.
+
+Summarizing it, double equal (==) is an autotype converting equality operator while three equals (===) is a strict equality operator, i.e. it will not convert values automatically.
