@@ -470,3 +470,4 @@ Scope management.
   They are useful in the following scenario.
     To create temporary/private scope.
     In Closures and Recursions.
+## 19. What Is The Difference Between “==” And “===”?
