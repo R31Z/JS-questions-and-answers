@@ -491,3 +491,34 @@ null and undefined
 object
 symbol (new to ES6)
 
+JavaScript provides a typeof operator that can examine a value and tell you what type it is:
+
+var a;
+typeof a;				// "undefined"
+
+a = "hello world";
+typeof a;				// "string"
+
+a = 42;
+typeof a;				// "number"
+
+a = true;
+typeof a;				// "boolean"
+
+a = null;
+typeof a;				// "object" -- weird, bug
+
+a = undefined;
+typeof a;				// "undefined"
+
+a = { b: "c" };
+typeof a;				// "object"
+The return value from the typeof operator is always one of six (seven as of ES6! - the "symbol" type) string values. That is, typeof "abc" returns "string", not string.
+
+Notice how in this snippet the a variable holds every different type of value, and that despite appearances, typeof a is not asking for the "type of a", but rather for the "type of the value currently in a." Only values have types in JavaScript; variables are just simple containers for those values.
+
+typeof null is an interesting case, because it errantly returns "object", when you'd expect it to return "null".
+
+Warning: This is a long-standing bug in JS, but one that is likely never going to be fixed. Too much code on the Web relies on the bug and thus fixing it would cause a lot more bugs!
+
+Also, note a = undefined. We're explicitly setting a to the undefined value, but that is behaviorally no different from a variable that has no value set yet, like with the var a; line at the top of the snippet. A variable can get to this "undefined" value state in several different ways, including functions that return no values and usage of the void operator.
