@@ -369,43 +369,12 @@ When we try to access any property, it first checks in the properties owned by t
 
 It is the process of inheriting the features of one object to another by copying the source objects properties. JavaScript calls these source prototypes by the name mixins. This process makes use of the JavaScript method Object.assign(). However, before ES6, the <.extend()> method was used.
 
-    var aProperty = 'global';
- 
-    var myObject = {
+### 3. Functional (Not To Be Confused With Functional Programming).
 
-      outerFun: function() {
+In JavaScript, a function can create an object. It’s not necessary to be a constructor(or a class). It is called a factory function. Functional inheritance produces an object from a factory and also extends it, by assigning properties.
 
-        this.aProperty = 'local';
+Every type of Prototypal Inheritance supports a separate set of use-cases, applicable to it. All of them are equally useful in their ability to enable composition. It provides has-a, uses-a, or can-do relationship as compared to the is-a relationship created with class inheritance.
 
-        setTimeout(function() {
-
-          console.log(this.aProperty); // outputs 'global'
-
-        }, 1);
-
-      }
-
-    };
-
-Thus, we see that inside “setTimeout” function, “this” refers to the global object. We need a way to get a reference to the object, that is available inside the nested function. We assign the object from “this”, to another(non-special) variable, “self”. It is not a special variable and hence cannot be overwritten by other functions(like “this”). Thus on using “self” inside the inner function, we can refer to the local object. Following is the sample code.
-
-    var myObject = {
-
-      outerFun: function() {
-
-        var self = this;
-
-        this.aProperty = 'local';
-
-        setTimeout(function() {
-
-          console.log(self.aProperty); // outputs 'local'
-
-        }, 1);
-
-      }
-
-    };
 ## 17. Why Is “Self” Needed Instead Of “This” In JavaScript?
 
 Inner functions in JavaScript have access to all of the variables defined in the outer function. However, “this” variable is an exception. Since the nested function is just a regular function and not an object method, it’s “this” refers to the global namespace. To make it more clear, let’s look at the following example.
