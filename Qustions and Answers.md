@@ -359,6 +359,16 @@ In JavaScript, the inheritance is prototype-based. This means that there are no 
 
 JavaScript provides three different types of Prototypal Inheritance.
 
+### 1. Delegation (I.E. The Prototype Chain).
+
+A delegate prototype is an object that serves as a base for another object. When you inherit from a delegate prototype, the new object gets a reference to the prototype.
+
+When we try to access any property, it first checks in the properties owned by the object. If that property does not exist there, it checks in the ‘[[Prototype]]’ and so on. If that property does not exist there, it checks in the ‘[[Prototype]]’ and so on. Gradually, it moves up the prototype chain, until it reaches the <Object.prototype> i.e. the root delegate for most of the objects.
+
+### 2. Concatenative Inheritance (I.E. Mixins, Object.Assign()).
+
+It is the process of inheriting the features of one object to another by copying the source objects properties. JavaScript calls these source prototypes by the name mixins. This process makes use of the JavaScript method Object.assign(). However, before ES6, the <.extend()> method was used.
+
     var aProperty = 'global';
  
     var myObject = {
