@@ -353,7 +353,11 @@ Here is a code example describing closure by adding a function inside another fu
     outerFunc("arg1", "arg2");
 ## 16. What Is Prototypal Inheritance In JavaScript?
 
-Inner functions in JavaScript have access to all of the variables defined in the outer function. However, “this” variable is an exception. Since the nested function is just a regular function and not an object method, it’s “this” refers to the global namespace. To make it more clear, let’s look at the following example.
+Most of the Object Oriented languages support classes and objects. Here, Classes inherit from other classes.
+
+In JavaScript, the inheritance is prototype-based. This means that there are no classes. Instead, there is an object that inherits from another object.
+
+JavaScript provides three different types of Prototypal Inheritance.
 
     var aProperty = 'global';
  
