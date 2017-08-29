@@ -479,3 +479,15 @@ Strict equality (===) returns true if the values which it is going to compare ha
 Secondly, Type converting equality (==), automatically converts the variable to value irrespective of the data type. Taking an example, here “2” will be equal to 2  i.e. (“2″===2) will return true.
 
 Summarizing it, double equal (==) is an autotype converting equality operator while three equals (===) is a strict equality operator, i.e. it will not convert values automatically.
+
+## 20. What are the Values and Types in JavaScript?
+
+As we asserted in Chapter 1, JavaScript has typed values, not typed variables. The following built-in types are available:
+
+string
+number
+boolean
+null and undefined
+object
+symbol (new to ES6)
+
