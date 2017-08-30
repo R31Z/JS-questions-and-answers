@@ -505,3 +505,31 @@ typeof null is an interesting case, because it errantly returns "object", when y
 Warning: This is a long-standing bug in JS, but one that is likely never going to be fixed. Too much code on the Web relies on the bug and thus fixing it would cause a lot more bugs!
 
 Also, note a = undefined. We're explicitly setting a to the undefined value, but that is behaviorally no different from a variable that has no value set yet, like with the var a; line at the top of the snippet. A variable can get to this "undefined" value state in several different ways, including functions that return no values and usage of the void operator.
+
+## 21. What Are The Different Ways To Create An Array In JavaScript?
+
+There are two main ways to create an array in JavaScript.
+
+### 1. Using An Array Initializer (Array Literal).
+
+The array initializer (array literal) syntax is simple. It is a comma-separated list of values in square brackets.
+
+Let’s see some examples.
+
+    var myArray1 = [1,2,3,4,5]      // an array with 5 elements
+    var myArray2 = [5]              // an array with 1 element
+    var myArray3 = [true,'Hi',[7]]  // element types need not be the same.
+
+### 2. Using The Array Constructor.
+
+The Array constructor method has three different syntaxes. If we call the constructor with two or more arguments, it declares an array with array elements also initialized. If we provide only one argument to the Array constructor, it refers to the length of the new array with, elements not initialized. Lastly, the constructor without any argument creates an array with its length set to zero with elements not initialized.
+
+Let’s see some examples.
+
+    var myArray4 = new Array(1,2,3,4,5)  // an array with 5 elements
+    var myArray5 = new Array(20)        // an empty array of length 20
+    var myArray6 = new Array()           // an empty array of length 0
+
+
+
+
