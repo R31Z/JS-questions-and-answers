@@ -531,7 +531,7 @@ Let’s see some examples.
     var myArray6 = new Array()           // an empty array of length 0
     
 ## 22. Enumerate the differences between Java and JavaScript?
-
 Java is a complete programming language. In contrast, JavaScript is a coded program that can be introduced to HTML pages. These two languages are not at all inter-dependent and are designed for the different intent.  Java is an object – oriented programming (OOPS) or structured programming language like C++ or C whereas JavaScript is a client-side scripting language and it is said to be unstructured programming.
 
 ## 23. What is negative infinity?
+Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero.
