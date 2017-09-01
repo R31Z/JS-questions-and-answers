@@ -529,7 +529,8 @@ Let’s see some examples.
     var myArray4 = new Array(1,2,3,4,5)  // an array with 5 elements
     var myArray5 = new Array(20)        // an empty array of length 20
     var myArray6 = new Array()           // an empty array of length 0
-
+    
+## 22. Enumerate the differences between Java and JavaScript?
 
 
 
