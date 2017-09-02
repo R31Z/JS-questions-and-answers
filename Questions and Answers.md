@@ -542,5 +542,6 @@ JavaScript uses a hierarchical structure, applicable to all the objects created 
 It is the topmost object in the hierarchy. It refers to the content area of the browser window that consists of HTML documents. Each frame is also a window that has some actions inside it.
 ### Document Object.
 A Document object represents the HTML document that the window will display. It has various properties that refer to other objects, which allow access to and modification of content in the document.
-
+### Form Object.
+A form object is used to take user data as input for processing. It corresponds to an HTML input form constructed with the <FORM>…</FORM> tag.
 
