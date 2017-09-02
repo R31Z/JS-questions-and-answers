@@ -540,4 +540,7 @@ Negative Infinity is a number in JavaScript which can be derived by dividing neg
 JavaScript uses a hierarchical structure, applicable to all the objects created in a document. Following are the objects, used in JavaScript that shows the relationship of one object to another.
 ### Window Object.
 It is the topmost object in the hierarchy. It refers to the content area of the browser window that consists of HTML documents. Each frame is also a window that has some actions inside it.
+### Document Object.
+A Document object represents the HTML document that the window will display. It has various properties that refer to other objects, which allow access to and modification of content in the document.
+
 
