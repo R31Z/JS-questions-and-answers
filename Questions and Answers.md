@@ -537,4 +537,6 @@ Java is a complete programming language. In contrast, JavaScript is a coded prog
 Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero.
 
 ## 24. What Are The Different Objects Used In JavaScript?
+JavaScript uses a hierarchical structure, applicable to all the objects created in a document. Following are the objects, used in JavaScript that shows the relationship of one object to another.
+
 
