@@ -535,3 +535,6 @@ Java is a complete programming language. In contrast, JavaScript is a coded prog
 
 ## 23. What is negative infinity?
 Negative Infinity is a number in JavaScript which can be derived by dividing negative number by zero.
+
+## 24. What Are The Different Objects Used In JavaScript?
+
