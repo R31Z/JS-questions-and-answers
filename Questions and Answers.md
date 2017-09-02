@@ -538,5 +538,6 @@ Negative Infinity is a number in JavaScript which can be derived by dividing neg
 
 ## 24. What Are The Different Objects Used In JavaScript?
 JavaScript uses a hierarchical structure, applicable to all the objects created in a document. Following are the objects, used in JavaScript that shows the relationship of one object to another.
-
+### Window Object.
+It is the topmost object in the hierarchy. It refers to the content area of the browser window that consists of HTML documents. Each frame is also a window that has some actions inside it.
 
