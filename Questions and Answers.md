@@ -544,4 +544,6 @@ It is the topmost object in the hierarchy. It refers to the content area of the 
 A Document object represents the HTML document that the window will display. It has various properties that refer to other objects, which allow access to and modification of content in the document.
 ### Form Object.
 A form object is used to take user data as input for processing. It corresponds to an HTML input form constructed with the <FORM>…</FORM> tag.
+## 25. What Is Strict Mode In JavaScript?
+
 
