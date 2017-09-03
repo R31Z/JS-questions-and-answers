@@ -548,12 +548,12 @@ A form object is used to take user data as input for processing. It corresponds 
 Strict Mode imposes a layer of constraint on JavaScript. It provides following enhancements.
 <ul>
     <li>JavaScript will throw an error if we try to use the elements of a deprecated language.</li>
-    To use a variable, it has become mandatory to declare it.
-    It disallows duplicate property and parameter names.
-    The eval() method is safer to use, but still considered evil in some cases.
-    It deprecates the “with” statement.
-    JavaScript will throw an error if we try to assign a value to a read-only property.
-    It decreases the global namespace pollution.
+    <li>To use a variable, it has become mandatory to declare it.</li>
+    <li>It disallows duplicate property and parameter names.</li>
+    <li>The eval() method is safer to use, but still considered evil in some cases.</li>
+    <li>It deprecates the “with” statement.</li>
+    <li>JavaScript will throw an error if we try to assign a value to a read-only property.</li>
+    <li>It decreases the global namespace pollution.</li>
   </ul>
 To enable strict mode, we have to add, “use strict” directive to the code. The physical location of the “strict” directive determines its scope. If used at the beginning of the js file, its scope is global. However, if we declare strict mode at the first line in the function block, its scope restricts to that function only.
 
