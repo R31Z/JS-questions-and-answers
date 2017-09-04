@@ -560,5 +560,8 @@ To enable strict mode, we have to add, “use strict” directive to the code. T
 JavaScript event handlers are functions that bind to a specific HTML DOM event. And events are the part of HTML document object model (DOM). An event can take place in one of the following cases.
 
 Due to user actions on a web page.
-
+    
+    <onclick()>, <onmouseover()>, <onkeydown()>
+Whenever the DOM receives an event, it calls the JavaScript event handler function bind to the event. To use a handler function, we can assign it to the desired event as an attribute of the target HTML element. Please follow the below example.
+    
 
