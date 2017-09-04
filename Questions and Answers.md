@@ -556,4 +556,9 @@ Strict Mode imposes a layer of constraint on JavaScript. It provides following e
     <li>It decreases the global namespace pollution.</li>
   </ul>
 To enable strict mode, we have to add, “use strict” directive to the code. The physical location of the “strict” directive determines its scope. If used at the beginning of the js file, its scope is global. However, if we declare strict mode at the first line in the function block, its scope restricts to that function only.
+## 26. What Are Event Handlers In JavaScript And How To Use Them?
+JavaScript event handlers are functions that bind to a specific HTML DOM event. And events are the part of HTML document object model (DOM). An event can take place in one of the following cases.
+
+Due to user actions on a web page.
+
 
