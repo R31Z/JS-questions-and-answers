@@ -580,6 +580,8 @@ Whenever the DOM receives an event, it calls the JavaScript event handler functi
 
     </HTML>
 ## 27. What Does A JavaScript Function Result When It Has No Return Statement?
+If a function doesn’t use the return statement, then it returns undefined as the return value.
+
 
     
 
