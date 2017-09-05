@@ -581,7 +581,10 @@ Whenever the DOM receives an event, it calls the JavaScript event handler functi
     </HTML>
 ## 27. What Does A JavaScript Function Result When It Has No Return Statement?
 If a function doesn’t use the return statement, then it returns undefined as the return value.
-
-
+However, the browser won’t print anything in its console as it ignores if the expression returns an undefined value. But if we explicitly call such a function inside the console.log() method, then it’ll print exact value.
+     
+    function test(){}
+ 
+    console.log(test()); // will print 'undefined'
     
 
