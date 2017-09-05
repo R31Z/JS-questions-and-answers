@@ -579,5 +579,7 @@ Whenever the DOM receives an event, it calls the JavaScript event handler functi
     </BODY>
 
     </HTML>
+## 27. What Does A JavaScript Function Result When It Has No Return Statement?
+
     
 
