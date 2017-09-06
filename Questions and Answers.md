@@ -586,5 +586,17 @@ However, the browser won’t print anything in its console as it ignores if the 
     function test(){}
  
     console.log(test()); // will print 'undefined'
+## 28. What Is EncodeURI() Function?
+The encodeURI() function is used to encode a URI. This function encodes all special characters, except these < , / ? : @ & = + $ #>.
+Let’s See An Example.
+
+    var uri="http://www.techbeamers.com/how to make a website using javaScript";
+    var encodedURI = encodeURI(uri);
+    console.log(encodedURI);
     
+ Output
+
+     http://www.somedomain.com/how%20to%20make%20a%20website%20using%20javaScript
+    
+We see that JavaScript encodes the space between the words in the <uri> variable as <%20>. Thus, the encodeURI function is used to encode special reserved characters and other non-ASCII characters in the URI.
 
