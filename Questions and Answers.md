@@ -599,4 +599,5 @@ Let’s See An Example.
      http://www.somedomain.com/how%20to%20make%20a%20website%20using%20javaScript
     
 We see that JavaScript encodes the space between the words in the <uri> variable as <%20>. Thus, the encodeURI function is used to encode special reserved characters and other non-ASCII characters in the URI.
-
+    
+## 29. How Does The <Array()> Differ From <[]> While Creating A JavaScript Array?
