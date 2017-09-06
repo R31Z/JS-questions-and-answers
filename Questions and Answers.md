@@ -604,3 +604,7 @@ We see that JavaScript encodes the space between the words in the <uri> variable
 Both the <Array()> and <[]> works almost the same in JavaScript.
 
 If we use them as is (i.e. without any argument) to create an array object, then they will result in an array object of zero length. Also, if we pass a string or a list of strings as arguments, even then result will be similar.
+
+However, they differ when the input argument is of integer type. In that case, the <Array(n)> statement will create an uninitialized array of size of n. Whereas, the <[n]> statement will create an array of size <1> and assign <n> as value to the first element.
+
+
