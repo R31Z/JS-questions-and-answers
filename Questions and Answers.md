@@ -601,3 +601,6 @@ Let’s See An Example.
 We see that JavaScript encodes the space between the words in the <uri> variable as <%20>. Thus, the encodeURI function is used to encode special reserved characters and other non-ASCII characters in the URI.
     
 ## 29. How Does The <Array()> Differ From <[]> While Creating A JavaScript Array?
+Both the <Array()> and <[]> works almost the same in JavaScript.
+
+If we use them as is (i.e. without any argument) to create an array object, then they will result in an array object of zero length. Also, if we pass a string or a list of strings as arguments, even then result will be similar.
