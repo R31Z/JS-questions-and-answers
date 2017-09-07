@@ -607,4 +607,11 @@ If we use them as is (i.e. without any argument) to create an array object, then
 
 However, they differ when the input argument is of integer type. In that case, the <Array(n)> statement will create an uninitialized array of size of n. Whereas, the <[n]> statement will create an array of size <1> and assign <n> as value to the first element.
 
+## 30. What will the code below output to the console and why?
 
+    (function(){
+       var a = b = 3;
+    })();
+
+    console.log("a defined? " + (typeof a !== 'undefined'));
+    console.log("b defined? " + (typeof b !== 'undefined'));
