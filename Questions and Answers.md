@@ -622,3 +622,8 @@ However, that is not the case. The issue here is that most developers incorrectl
 
     var b = 3;
     var a = b;
+    
+But in fact, var a = b = 3; is actually shorthand for:
+
+    b = 3;
+    var a = b;
