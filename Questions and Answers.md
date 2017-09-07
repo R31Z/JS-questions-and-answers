@@ -615,3 +615,10 @@ However, they differ when the input argument is of integer type. In that case, t
 
     console.log("a defined? " + (typeof a !== 'undefined'));
     console.log("b defined? " + (typeof b !== 'undefined'));
+    
+Since both a and b are defined within the enclosing scope of the function, and since the line they are on begins with the var keyword, most JavaScript developers would expect typeof a and typeof b to both be undefined in the above example.
+
+However, that is not the case. The issue here is that most developers incorrectly understand the statement var a = b = 3; to be shorthand for:
+
+    var b = 3;
+    var a = b;
