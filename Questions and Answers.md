@@ -640,3 +640,7 @@ Note that, in strict mode (i.e., with use strict), the statement var a = b = 3; 
 ## 31. What are different types of error in JavaScript?
 
 Syntax Error: – Syntax Errors are those errors which occur when you break the rules defined in JavaScript while creating a program. This error occurs while loading a web page.
+
+Runtime Error: – Runtime error informs the programmer that there is a problem with a script while loading. You can see runtime errors in a browser. It specifies the line number in the alert box so that you can easily search that error in Script. Due to the use of improper command the runtime error occurs. 
+
+Logical Error: – Logical Error is the type e of error in which you don’t get an expected result as required. This error is also known as a bug.
