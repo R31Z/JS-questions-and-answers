@@ -647,3 +647,17 @@ Logical Error: – Logical Error is the type e of error in which you don’t get
 
 ## 32. How Does Variable Hoisting Take Place In JavaScript?
 In JavaScript, variable declarations are the first piece of code that executes irrespective of their location. Hence, it doesn’t matter whether we declare a variable at the top or anywhere else. This functionality which moves the declaration to the top either inside a function or in the global code is known as hoisting.
+
+    out = 2;
+ 
+    var out;
+ 
+    function myfunc() {
+ 
+      var in = "inside"
+ 
+    // some code
+ 
+    }
+ 
+    // ...
