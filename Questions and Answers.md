@@ -661,3 +661,19 @@ In JavaScript, variable declarations are the first piece of code that executes i
     }
  
     // ...
+    
+JavaScript will interpret the above in the following manner.
+
+    var out;
+ 
+    out = 2;
+ 
+    function myfunc() {
+ 
+        var in;
+ 
+    // some code
+ 
+      in = "inside";
+ 
+    }
