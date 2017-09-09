@@ -644,3 +644,6 @@ Syntax Error: – Syntax Errors are those errors which occur when you break the 
 Runtime Error: – Runtime error informs the programmer that there is a problem with a script while loading. You can see runtime errors in a browser. It specifies the line number in the alert box so that you can easily search that error in Script. Due to the use of improper command the runtime error occurs. 
 
 Logical Error: – Logical Error is the type e of error in which you don’t get an expected result as required. This error is also known as a bug.
+
+## 32. How Does Variable Hoisting Take Place In JavaScript?
+In JavaScript, variable declarations are the first piece of code that executes irrespective of their location. Hence, it doesn’t matter whether we declare a variable at the top or anywhere else. This functionality which moves the declaration to the top either inside a function or in the global code is known as hoisting.
