@@ -677,3 +677,4 @@ JavaScript will interpret the above in the following manner.
       in = "inside";
  
     }
+## 33. How Will You Replace All Occurrences Of A String In JavaScript?
