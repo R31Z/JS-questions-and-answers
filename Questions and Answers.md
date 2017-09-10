@@ -678,3 +678,25 @@ JavaScript will interpret the above in the following manner.
  
     }
 ## 33. How Will You Replace All Occurrences Of A String In JavaScript?
+We can use String’s <replace()> method to substitute any string. There are following two ways to use this method.
+Pass The Input String As A Regular Expression.
+
+    str = "ghktestlllltest-sdds"
+    str = str.replace(/test/g, '');
+    alert(str)
+    
+### Use RegExp Class To Create A Regular Expression And Pass It.
+
+    String.prototype.replaceAll = function(find, replace) {
+
+        var target = this;
+
+        return target.replace(new RegExp(find, 'g'), replace);
+
+    };
+
+    str = "ghktestlllltest-sdds"
+
+    str = str.replaceAll('test', '');
+
+    alert(str)
