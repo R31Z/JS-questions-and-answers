@@ -699,4 +699,6 @@ Pass The Input String As A Regular Expression.
 
     str = str.replaceAll('test', '');
 
-    alert(str)
+    alert(str)
+## 34. What is arguments object in JavaScript?
+JavaScript variable arguments represents the arguments passed to a function.
