@@ -702,3 +702,9 @@ Pass The Input String As A Regular Expression.
     alert(str)
 ## 34. What is arguments object in JavaScript?
 JavaScript variable arguments represents the arguments passed to a function.
+## 35.  Is it possible to break JavaScript Code into several lines?
+Breaking within a string statement can be done by the use of a backslash, ‘\’, at the end of the first line
+
+Example:
+
+    document.write("This is \a program");
