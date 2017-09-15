@@ -733,3 +733,8 @@ The named function f() calls itself recursively, until it gets down to calling f
     f(8): returns 8 * f(7), which is 40320
     f(9): returns 9 * f(8), which is 362880
     f(10): returns 10 * f(9), which is 3628800
+## 39. Which keyword is used to print the text in the screen?
+document.write(“Welcome”) is used to print the text – Welcome in the screen.
+
+
+    
