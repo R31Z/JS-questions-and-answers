@@ -735,6 +735,6 @@ The named function f() calls itself recursively, until it gets down to calling f
     f(10): returns 10 * f(9), which is 3628800
 ## 39. Which keyword is used to print the text in the screen?
 document.write(“Welcome”) is used to print the text – Welcome in the screen.
-
+## 40. What is ‘this’ keyword in JavaScript?
 
     
