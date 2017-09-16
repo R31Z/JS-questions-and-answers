@@ -736,5 +736,7 @@ The named function f() calls itself recursively, until it gets down to calling f
 ## 39. Which keyword is used to print the text in the screen?
 document.write(“Welcome”) is used to print the text – Welcome in the screen.
 ## 40. What is ‘this’ keyword in JavaScript?
+‘This’ keyword refers to the object from where it was called.
+
 
     
