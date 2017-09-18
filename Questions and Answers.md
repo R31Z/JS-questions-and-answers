@@ -740,6 +740,8 @@ document.write(“Welcome”) is used to print the text – Welcome in the scree
 ## 41. How many types of functions JavaScript supports?
 A function in JavaScript can be either named or anonymous.
 ## 42. Which built-in method returns the character at the specified index?
+charAt() method returns the character at the specified index.
+
 
 
     
