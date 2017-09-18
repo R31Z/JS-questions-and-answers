@@ -750,6 +750,8 @@ indexOf() method returns the index within the calling String object of the first
 ## 46. Which built-in method returns the length of the string?
 length() method returns the length of the string.
 ## 47. Which built-in method removes the last element from an array and returns that element?
+pop() method removes the last element from an array and returns that element.
+
 
 
 
