@@ -743,7 +743,7 @@ A function in JavaScript can be either named or anonymous.
 charAt() method returns the character at the specified index.
 ## 43. Which built-in method combines the text of two strings and returns a new string?
 concat() method returns the character at the specified index.
-
+## 44. Which built-in method calls a function for each element in the array?
 
 
     
