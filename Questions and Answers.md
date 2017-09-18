@@ -751,8 +751,10 @@ indexOf() method returns the index within the calling String object of the first
 length() method returns the length of the string.
 ## 47. Which built-in method removes the last element from an array and returns that element?
 pop() method removes the last element from an array and returns that element.
+## 48. What is Date object in JavaScript?
+The Date object is a datatype built into the JavaScript language. Date objects are created with the new Date( ).
 
-
+Once a Date object is created, a number of methods allow you to operate on it. Most methods simply allow you to get and set the year, month, day, hour, minute, second, and millisecond fields of the object, using either local time or UTC (universal, or GMT) time.
 
 
 
