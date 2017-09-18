@@ -748,6 +748,8 @@ forEach() method calls a function for each element in the array.
 ## 45. Which built-in method returns the index within the calling String object of the first occurrence of the specified value?
 indexOf() method returns the index within the calling String object of the first occurrence of the specified value, or −1 if not found.
 ## 46. Which built-in method returns the length of the string?
+length() method returns the length of the string.
+
 
 
 
