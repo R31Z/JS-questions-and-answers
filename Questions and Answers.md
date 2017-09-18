@@ -745,6 +745,7 @@ charAt() method returns the character at the specified index.
 concat() method returns the character at the specified index.
 ## 44. Which built-in method calls a function for each element in the array?
 forEach() method calls a function for each element in the array.
+## 45. Which built-in method returns the index within the calling String object of the first occurrence of the specified value?
 
 
 
