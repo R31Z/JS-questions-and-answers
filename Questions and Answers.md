@@ -755,8 +755,12 @@ pop() method removes the last element from an array and returns that element.
 The Date object is a datatype built into the JavaScript language. Date objects are created with the new Date( ).
 
 Once a Date object is created, a number of methods allow you to operate on it. Most methods simply allow you to get and set the year, month, day, hour, minute, second, and millisecond fields of the object, using either local time or UTC (universal, or GMT) time.
+## 49. What Is An Asynchronous Programming? Why Is It Important In JavaScript?
+In Asynchronous programming, the engine runs in an event loop. On encountering a blocking operation, a request gets fired and the code keeps running without blocking for the result. When its execution completes, and the response is ready, it fires an interrupt, which causes an event handler to be run, where the control flow continues. In this way, a single program thread can handle many concurrent operations in an asynchronous programming.
 
+The user interface is asynchronous by nature and spends most of the time, waiting for user input to interrupt the event loop and trigger event handlers. Node is asynchronous by default. It means that the server works by waiting for a network request in a loop. Thus, it accepts more incoming requests, while the first one is getting handled.
 
+It is important in JavaScript because it’s suitable for user interface code and beneficial for maintaining the performance on the server.
 
 
     
