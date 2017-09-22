@@ -761,6 +761,8 @@ In Asynchronous programming, the engine runs in an event loop. On encountering a
 The user interface is asynchronous by nature and spends most of the time, waiting for user input to interrupt the event loop and trigger event handlers. Node is asynchronous by default. It means that the server works by waiting for a network request in a loop. Thus, it accepts more incoming requests, while the first one is getting handled.
 
 It is important in JavaScript because it’s suitable for user interface code and beneficial for maintaining the performance on the server.
+## 50. Assuming d is an “empty” object in scope, what is accomplished using the following code?
+
 
 
     
