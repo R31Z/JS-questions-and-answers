@@ -762,7 +762,10 @@ The user interface is asynchronous by nature and spends most of the time, waitin
 
 It is important in JavaScript because it’s suitable for user interface code and beneficial for maintaining the performance on the server.
 ## 50. Assuming d is an “empty” object in scope, what is accomplished using the following code?
-
+    
+    [ 'zebra', 'horse' ].forEach(function(k) {
+	d[k] = undefined;
+    });
 
 
     
