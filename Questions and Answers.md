@@ -766,6 +766,12 @@ It is important in JavaScript because it’s suitable for user interface code an
     [ 'zebra', 'horse' ].forEach(function(k) {
 	d[k] = undefined;
     });
+## 51. What will be the output of the code below?
+
+	var y = 1;
+	  if (function f(){}) {
+	    y += typeof f;
+	  }
+	  console.log(y);
 
 
-    
