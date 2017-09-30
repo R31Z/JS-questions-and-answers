@@ -781,3 +781,11 @@ The output would be 1undefined. The if condition statement evaluates using eval,
 	    k += typeof foo;
 	  }
 	  console.log(k); 
+The code above will also output 1undefined.
+
+	var k = 1;
+	  if (1) {
+	    function foo(){};
+	    k += typeof foo;
+	  }
+	  console.log(k); // output 1function
