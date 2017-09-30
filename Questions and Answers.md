@@ -775,3 +775,9 @@ It is important in JavaScript because it’s suitable for user interface code an
 	  console.log(y);
 The output would be 1undefined. The if condition statement evaluates using eval, so eval(function f(){}) returns function f(){} (which is true). Therefore, inside the if statement, executing typeof f returns undefined because the if statement code executes at run time, and the statement inside the if condition is evaluated during run time.
 
+	var k = 1;
+	  if (1) {
+	    eval(function foo(){});
+	    k += typeof foo;
+	  }
+	  console.log(k); 
