@@ -789,3 +789,4 @@ The code above will also output 1undefined.
 	    k += typeof foo;
 	  }
 	  console.log(k); // output 1function
+## 52. Truthy isn't Equal to true
