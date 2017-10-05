@@ -803,3 +803,4 @@ After that, JavaScript implementation will try to convert [] by usingtoPrimitive
 Now you are comparing "" == 1 and still left and right is not same type. Hence left side will be converted again to a number and empty string will be 0.
 
 Finally, they are of same type, you are comparing 0 === 1 which will be false.
+## 53. How can you get the total number of arguments passed to a function?
