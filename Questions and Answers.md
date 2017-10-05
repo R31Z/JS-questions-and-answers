@@ -804,3 +804,11 @@ Now you are comparing "" == 1 and still left and right is not same type. Hence l
 
 Finally, they are of same type, you are comparing 0 === 1 which will be false.
 ## 53. How can you get the total number of arguments passed to a function?
+Using arguments.length property, we can get the total number of arguments passed to a function. For example:
+
+	function func(x){
+	   console.log(typeof x, arguments.length);
+	}
+	func();                //==> "undefined", 0
+	func(1);               //==> "number", 1
+	func("1", "2", "3");   //==> "string", 3
