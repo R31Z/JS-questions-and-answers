@@ -812,3 +812,10 @@ Using arguments.length property, we can get the total number of arguments passed
 	func();                //==> "undefined", 0
 	func(1);               //==> "number", 1
 	func("1", "2", "3");   //==> "string", 3
+	
+## 54. window vs document
+Question: Is there any difference between window and document?
+
+Answer: Yes. JavaScript has a global object and everything runs under it. window is that global object that holds global variables, global functions, location, history everything is under it. Besides, setTimeout, ajax call (XMLHttpRequest), console or localStorage are part of window.
+
+document is also under window. document is a property of the window object. document represents the DOM and DOM is the object oriented representation of the html markup you have written. All the nodes are part of document. Hence you can use getElementById or addEventListener on document. These methods are not present in the window object.
