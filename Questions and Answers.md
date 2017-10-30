@@ -819,3 +819,8 @@ Question: Is there any difference between window and document?
 Answer: Yes. JavaScript has a global object and everything runs under it. window is that global object that holds global variables, global functions, location, history everything is under it. Besides, setTimeout, ajax call (XMLHttpRequest), console or localStorage are part of window.
 
 document is also under window. document is a property of the window object. document represents the DOM and DOM is the object oriented representation of the html markup you have written. All the nodes are part of document. Hence you can use getElementById or addEventListener on document. These methods are not present in the window object.
+
+	window.document === document; //true
+	window.getElementById; //undefined
+	document.getElementById; //function getElementById() { [native code] }
+      
