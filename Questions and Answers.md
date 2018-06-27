@@ -824,3 +824,10 @@ document is also under window. document is a property of the window object. docu
 	window.getElementById; //undefined
 	document.getElementById; //function getElementById() { [native code] }
       
+## 55. What would following code return?
+
+console.log(typeof typeof 1);
+
+Answer: string
+
+	typeof 1 will return "number" and typeof "number" will return string.
