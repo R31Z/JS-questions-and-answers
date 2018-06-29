@@ -831,3 +831,11 @@ console.log(typeof typeof 1);
 Answer: string
 
 	typeof 1 will return "number" and typeof "number" will return string.
+
+## 56. What are different types of Popup boxes available in Javascript?
+
+In Javascript there are 3 types of Popup Boxes are available, they are
+
+	1. Alert
+	2. Confirm
+	3. Prompt
